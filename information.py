@@ -74,9 +74,6 @@ def main(numAttack):
     hiding_G = newG(best_individual,G)
     hiding_communities = getCommunity(hiding_G, detectionFun)
 
-    LONMI = LONMIScore(G, target_community, or_communities, hiding_communities.communities)
-
-    print('LONMI:', LONMI)
 
 
 
